@@ -1,105 +1,150 @@
-/* Set a base font size for the body */
-body {
-    background-color: #90e0ef;
-    color: #023047;
+
+/* CSS Document */
+
+
+body{
+    background-color: #e9d8a6;
+    color: #bb3e03;
     font-family: Arial, Verdana, sans-serif;
-    font-size: 16px;                                      
+    font-size: 16px;
     max-width: 900px;
     margin: 0 auto;
     padding: 20px 24px 40px;
-
+    line-height: 1.8;
 }
-/* Style the navigation bar */
+/* Reset some default styles */
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    color: #bb3e03;
+}
+ /* Header styles */
+header{
+    background-color: #ffba08;
+    color: #a55000;
+    padding: 16px 24px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+header h1{
+    font-size: 2.5rem;
+    margin: 0;
+    letter-spacing: 1px;
+}
+/* Navigation styles */
 nav{
-    background-color: #0077b6;
+    background-color: #fca311;
     padding: 12px 16px;
     border-radius: 8px;
     margin-bottom: 24px;
 }
-/* Style the navigation links */
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+    padding: 8px 16px;
+}
+
 nav a {
+    display:block;
+    padding: 8px 10px;
     color: #ffffff;
-    text-decoration: none;
-    margin-right: 20px;
-    font-weight: bold;
-}
-/* Add hover effect to navigation links */
-nav a:hover {
-    text-decoration: underline;
-    color: #90e0ef;
-}
-/* Style the headings */
-h1{
-    color: #03045e;
-    font-size: 2.5rem;
     text-align: center;
-    margin: 0.5em 0;
-    letter-spacing: 1px;
+    margin-right: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+    
 }
-h2{
-    color: #415a77;
-    font-size: 2rem;
-    border-bottom: 3px solid #e0e1dd;
-    padding-bottom: 6px;
-    margin-top: 1.6em;
+nav a:hover, nav a:active {
+    color: #001219;
+    background-color: #d88e17;
+}
+/* Layout styles */
+.layout{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px 24px;
+}
+/* Main content and aside styles */
+main{
+    background-color: #f4a261;
+    color: #6a4c3b;
+    border-radius: 8px;
+    flex: 0 0 70%;
+    padding: 0 16px;
+    min-width: 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+/* Aside styles */
+aside{
+    flex: 1;
+    background-color: #e0864a;
+    color: #854830;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
 
+main h1, main h2, main h3{
+    color: #af623f;
+    margin: 12px 0 8px;
 }
-h3{
-    color: #7b2cbf;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-top: 1.2em;
+
+main h1:first-child, main h2:first-child, main h3:first-child{
+    margin-top: 0;
 }
-/* Style paragraphs and lists */
-p{
-    color: #003049;
+
+main p, main ul, main ol{
+    margin-bottom: 8px;
     line-height: 1.8;
-    margin: 0 0 1em;      
-    padding: 4px 0;
 }
-/* Style unordered lists */
-ul{
-    list-style-type: square;
-    padding-left: 20px;
-    margin-bottom: 1em;
-    line-height: 1.8;
-}
-ul li::marker{
-  color: #c0392b;
-}
-
-li{
-    margin-bottom: 1em;
-    color: #03045e;;
-}
-
-ol{
-    list-style-type: decimal;
-    padding-left: 32px;
-    margin-bottom: 1em;
-    line-height: 1.8;
-}
-
-ol li::marker{
-  color: #6a4c93;
-  font-weight: bold;
-}
-/* Style pictures */
-img{
-    display: block;
+main img{
     max-width: 100%;
     height: auto;
-    border-radius: 12px;
-    border: 2px solid #ffffff;
-    margin: 20px 0 8px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    padding: 4px;
-    background-color: #ffffff;
+    margin: 16px 0 8px;
+    display: block;
+}   
 
+aside h2, aside h3{
+    font-size: 1.2rem;
+    color: #632a13;
+    margin: 16px 0 8px;
+    border-bottom: 2px solid #fffbfa;
+    
 }
-/* Style paragraphs that follow images */
-img+p{
-   font-size: 0.95rem;
-    color: #555;
-    font-style: italic;
+
+aside ul, aside ol{
+    margin-bottom: 16px;
+    line-height: 1.8;
+    padding-left: 16px;
+}
+/* Footer styles */
+footer{
+    background-color: #bb633a;
+    color: #f5f4f0;
+    text-align: center;
+    padding: 16px 24px;
+    margin-top: 32px;
+    border-radius: 8px;
+}
+
+footer a{
+    color: #f8d057;
+    margin: 0 8px;
+    font-weight: bold;
+}
+@media (max-width: 700px) {
+    .layout { flex-direction: column; }
+    main, aside { flex: none; width: 100%; }
+    nav ul { flex-wrap: wrap; }
 }
