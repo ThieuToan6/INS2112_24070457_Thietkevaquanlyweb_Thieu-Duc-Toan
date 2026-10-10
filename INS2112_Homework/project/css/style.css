@@ -44,6 +44,8 @@ nav{
 }
 
 nav ul{
+    list-style-type: none;
+    margin: 0;
     display: flex;
     justify-content: space-evenly;
     gap: 8px;
@@ -68,8 +70,6 @@ nav a:hover, nav a:active {
 .layout{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
     gap: 24px;
     max-width: 900px;
     margin: 0 auto;
