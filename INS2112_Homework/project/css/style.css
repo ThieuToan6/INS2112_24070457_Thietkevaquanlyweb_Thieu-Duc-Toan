@@ -67,8 +67,8 @@ nav a:hover{
     background-color: #d88e17;
 }
 nav a.active {
-    color: #001219;
-    background-color: #d88e17;
+    color: #c21d1d;
+    background-color: #d87417;
 }
 /* Layout styles */
 .layout{    
