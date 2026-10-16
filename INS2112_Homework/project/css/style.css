@@ -62,14 +62,19 @@ nav a {
     border-radius: 8px;
     
 }
-nav a:hover, nav a:active {
+nav a:hover{
+    color: #001219;
+    background-color: #d88e17;
+}
+nav a.active {
     color: #001219;
     background-color: #d88e17;
 }
 /* Layout styles */
-.layout{
+.layout{    
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
     gap: 24px;
     max-width: 900px;
     margin: 0 auto;
@@ -104,6 +109,7 @@ main h1:first-child, main h2:first-child, main h3:first-child{
     margin-top: 0;
 }
 
+
 main p, main ul, main ol{
     margin-bottom: 8px;
     line-height: 1.8;
@@ -127,6 +133,100 @@ aside ul, aside ol{
     margin-bottom: 16px;
     line-height: 1.8;
     padding-left: 16px;
+}
+.event-card {
+    background-color: #ecb130;
+    border: 1px solid #792626;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+}
+
+.event-date {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #0a2869;
+    color: #b0ebfd;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: #7fb7f8;
+    color:#001219;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    }
+form{
+    background: #cd673e;
+    border-radius: 8px;
+    padding: 24px 20px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.form-group {
+    max-width: 500px;
+    margin: 0 auto 20px;
+    color: #fcfcfc;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+    
+}
+.form-group button {
+    display: block;
+    margin-left: auto ;
+    padding: 4px 12px;
+    background: #0a2869;
+    color: #b0ebfd;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #7fb7f8;
+    color:#001219;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.gallery-item p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #f2f3f3;
+    
+}
+.gallery-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 0 8px;
+    border-radius: 8px;
 }
 /* Footer styles */
 footer{

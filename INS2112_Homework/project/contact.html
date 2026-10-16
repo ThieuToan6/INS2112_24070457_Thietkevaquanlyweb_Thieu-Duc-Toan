@@ -4,17 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Music Club</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+     <header>
+        <h1>Music Club</h1>
+       </header>
+     <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
     </nav>
+ <main>
+    <section>
+    <h2>Contact Us</h2>
+      <p>If you have any questions or want to join our club, feel free to reach out to us through any of the channels below.<br>
+        We usually reply within one or two days.</p>
+    </section>
 
-    <h1>Contact Us</h1>
+     <section>
+     <h2>Ways to Reach Us</h2>
+        <ul>
+            <li>Email: musicclub@example.com</li>
+            <li>Phone: 0123 456 789</li>
+            <li>Facebook: facebook.com/musicclub.example</li>
+            <li>Instagram: @musicclub.example</li>
+            <li>YouTube: Music Club Channel</li>
+        </ul>
+        </section>
+    <section>
+        <h2>Tickets and Events</h2>
+        <p>If you prefer our events, you can send email to us to get tickets for our events. We will provide you with the necessary information and instructions on how to obtain tickets for our concerts and activities.</p>
+        <ul>
+            <li><strong>Music Night: Mar 29 | 7 PM | Room 303</strong></li>
+            <li><strong>Apr 15 | 3 PM | Room 302</strong></li>
+            <li><strong>Open Mic Night: May 10 | 6 PM | Room 301</strong></li>
+        </ul>
+        </section>
+        <section>
+        <h2>Send Us a Message</h2>
+        <form action="mailto:musicclub@example.com" method="post">
+            <div class ="form-group">
+              <label for="name" class="label">Name:</label><br>
+              <input type="text" id="name" name="name" class="input" required><br><br>
+            </div>
 
-    <p>If you have any questions or want to join our club, feel free to reach out to us at musicclub@example.com.</p>
-    <p>Thank you.</p>
+            <div class ="form-group">
+               <label for="email" class="label">Email:</label><br>
+               <input type="email" id="email" name="email" class="input" required><br><br>
+            </div>
+
+            <div class ="form-group">
+               <label for="message" class="label">Message:</label><br>
+               <textarea id="message" name="message" rows="4" class="textarea" required></textarea><br><br>
+            </div>
+            
+            <div class ="form-group">
+               <button type="submit" class="button">Submit</button>
+            </div>
+        </form>
+    </section>
+    <section>
+        <h2>Where we meet</h2>
+        <p>We usually meet in the Music Room, which is located in the school's music department. The room is equipped with various musical instruments and sound equipment for our rehearsals and activities.</p>
+        <img src="images/music_room.jpg" alt="Photo of the Music Room where we hold our rehearsals" width="300" height="200">
+        <p>We meet every Saturday at 5 PM in Room 301, Building A, Tran Quoc Toan Street, Ha Noi, Viet Nam.</p>
+        <p><strong>Thank you for your interest!</strong></p>
+    </section>
+ </main>
+ <footer>
+        <p>Copyright &copy; 2026 Music Club</p>
+           <p>
+            <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://youtube.com" target="_blank" rel="noopener">YouTube</a>
+        </p>
+    </footer>
 </body>
 </html>
