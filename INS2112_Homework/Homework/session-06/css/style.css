@@ -3,8 +3,8 @@
 
 
 body{
-    background-color: #f3f7fc;
-    color: #1f2937;
+    background-color: #e9d8a6;
+    color: #bb3e03;
     font-family: Arial, Verdana, sans-serif;
     font-size: 16px;
     max-width: 900px;
@@ -19,12 +19,12 @@ img{
 }
 
 a{
-    color: #1d4ed8;
+    color: #bb3e03;
 }
  /* Header styles */
 header{
-    background-color: #1e40af;
-    color: #ffffff;
+    background-color: #ffba08;
+    color: #a55000;
     padding: 16px 24px;
     text-align: center;
     border-radius: 8px;
@@ -37,7 +37,7 @@ header h1{
 }
 /* Navigation styles */
 nav{
-    background-color: #dbeafe;
+    background-color: #fca311;
     padding: 12px 16px;
     border-radius: 8px;
     margin-bottom: 24px;
@@ -55,7 +55,7 @@ nav ul{
 nav a {
     display:inline-block;
     padding: 8px 10px;
-    color: #1e3a8a;
+    color: #ffffff;
     text-align: center;
     margin-right: 12px;
     font-weight: bold;
@@ -63,12 +63,12 @@ nav a {
     
 }
 nav a:hover{
-    color: #ffffff;
-    background-color: #1d4ed8;
+    color: #001219;
+    background-color: #d88e17;
 }
 nav a.active {
-    color: #ffffff;
-    background-color: #1d4ed8;
+    color: #161566;
+    background-color: #5091db;
 }
 /* Layout styles */
 .layout{    
@@ -82,8 +82,8 @@ nav a.active {
 }
 /* Main content and aside styles */
 main{
-    background-color: #ffffff;
-    color: #1f2937;
+    background-color: #f4a261;
+    color: #6a4c3b;
     border-radius: 8px;
     flex: 0 0 70%;
     padding: 0 16px;
@@ -93,15 +93,15 @@ main{
 /* Aside styles */
 aside{
     flex: 1;
-    background-color: #eaf2ff;
-    color: #1f2937;
+    background-color: #e0864a;
+    color: #854830;
     border-radius: 8px;
     padding: 16px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 main h2, main h3{
-    color: #1e3a8a;
+    color: #63341f;
     margin: 12px 0 8px;
 }
 
@@ -123,9 +123,9 @@ main img{
 
 aside h2, aside h3{
     font-size: 1.2rem;
-    color: #1e3a8a;
+    color: #632a13;
     margin: 16px 0 8px;
-    border-bottom: 2px solid #bfdbfe;
+    border-bottom: 2px solid #fffbfa;
     
 }
 
@@ -135,8 +135,8 @@ aside ul, aside ol{
     padding-left: 16px;
 }
 .event-card {
-    background-color: #ffffff;
-    border: 1px solid #93c5fd;
+    background-color: #ecb130;
+    border: 1px solid #792626;
     border-radius: 8px;
     padding: 12px 16px;
     margin-bottom: 16px;
@@ -144,25 +144,25 @@ aside ul, aside ol{
 
 .event-date {
     font-weight: bold;
-    color: #1e40af;
+    color: #ffffff;
 }
 
 .btn {
     display: inline-block;
     padding: 8px 16px;
-    background: #1d4ed8;
-    color: #ffffff;
+    background: #0a2869;
+    color: #b0ebfd;
     text-decoration: none;
     border-radius: 4px;
 }
 
 .btn:hover {
-    background: #1e3a8a;
-    color: #ffffff;
+    background: #7fb7f8;
+    color:#001219;
     transition: background-color 0.3s ease, color 0.3s ease;
     }
 form{
-    background: #eaf2ff;
+    background: #cd673e;
     border-radius: 8px;
     padding: 24px 20px;
     max-width: 600px;
@@ -172,7 +172,7 @@ form{
 .form-group {
     max-width: 500px;
     margin: 0 auto 20px;
-    color: #1f2937;
+    color: #fcfcfc;
 }
 
 .form-group label {
@@ -186,7 +186,7 @@ form{
     width: 100%;
   padding: 10px;
   margin-bottom: 16px;
-  border: 1px solid #93c5fd;
+  border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
     
@@ -195,8 +195,8 @@ form{
     display: block;
     margin-left: auto ;
     padding: 4px 12px;
-    background: #1d4ed8;
-    color: #ffffff;
+    background: #0a2869;
+    color: #b0ebfd;
     text-decoration: none;
     border-radius: 4px;
     border: none;
@@ -204,8 +204,8 @@ form{
     cursor: pointer;
 }
 .form-group button:hover {
-    background-color: #1e3a8a;
-    color: #ffffff;
+    background-color: #7fb7f8;
+    color:#001219;
     transition: background-color 0.3s ease, color 0.3s ease;
 
 }
@@ -218,7 +218,7 @@ form{
     font-size: 0.9rem;
     line-height: 1.5;
     text-align: center;
-    color: #334155;
+    color: #f2f3f3;
     
 }
 .gallery-grid img {
@@ -230,8 +230,8 @@ form{
 }
 /* Footer styles */
 footer{
-    background-color: #1e3a8a;
-    color: #ffffff;
+    background-color: #bb633a;
+    color: #f5f4f0;
     text-align: center;
     padding: 16px 24px;
     margin-top: 32px;
@@ -239,7 +239,7 @@ footer{
 }
 
 footer a{
-    color: #bfdbfe;
+    color: #f8d057;
     margin: 0 8px;
     font-weight: bold;
 }
