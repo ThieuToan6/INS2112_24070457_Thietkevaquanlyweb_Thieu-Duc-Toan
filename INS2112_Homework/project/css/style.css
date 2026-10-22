@@ -5,12 +5,13 @@
 body{
     background-color: #f3f7fc;
     color: #1f2937;
-    font-family: 'Open Sans', Arial, sans-serif; line-height: 1.6;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.8;
     font-size: 16px;
     max-width: 900px;
     margin: 0 auto;
     padding: 20px 24px 40px;
-    line-height: 1.8;
+    
 }
 /* Reset some default styles */
 img{
