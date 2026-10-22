@@ -4,3 +4,4 @@
 - Session 04: https://drive.google.com/drive/folders/1-wVw8ef5az5zvbuCeTM--z6LvpujH9vi?hl=vi
 - Session 05: https://drive.google.com/drive/folders/1bapJOyFMs8PKIXVbX2VTnz-fm4kb2anR?hl=vi
 - Session 06: https://drive.google.com/drive/folders/1ev18fmN0Ao20KTGQbDhs9Uiuvs1l0jZ4?hl=vi
+- Session 07: https://drive.google.com/drive/folders/1tVzzj9UkCj0Wvu-mrHI5K3RAeClfG1L1?hl=vi
