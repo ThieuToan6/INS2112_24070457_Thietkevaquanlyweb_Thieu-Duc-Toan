@@ -5,3 +5,4 @@
 - Session 05: https://drive.google.com/drive/folders/1bapJOyFMs8PKIXVbX2VTnz-fm4kb2anR?hl=vi
 - Session 06: https://drive.google.com/drive/folders/1ev18fmN0Ao20KTGQbDhs9Uiuvs1l0jZ4?hl=vi
 - Session 07: https://drive.google.com/drive/folders/1tVzzj9UkCj0Wvu-mrHI5K3RAeClfG1L1?hl=vi
+- Session 09: https://drive.google.com/drive/folders/17SgiTf3HsRhKAEhOakOmnz3g9XwlvjDC?hl=vi
