@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Web of my Club</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600;700">
+    <link rel="stylesheet" href="css/style.css">
+</head>  
+<body>
+     <header>
+        <h1>Music Club</h1>
+       </header>
+    <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="media.html" class="active">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+    <!-- Main and Table content  -->
+     <main>
+        <h2>Club Media </h2>
+              <p>Welcome to the Media section of our Music Club! Here, you can find a collection of photos and videos that showcase our club's activities, events, and performances. 
+                We believe that sharing our media content is a great way to connect with our members and the wider community.</p>
+            
+        <section class="media-section">
+            <h2>Video</h2>
+            <figure>
+                <video controls width="640"  poster="images/video-thumbnail.jpg">
+                    <source src="video/music-club-performance.mp4" type="video/mp4">
+                    <p>Your browser does not support the video tag.
+                    <a href="video/music-club-performance.mp4">Download the video</a> instead.</p>
+                </video>
+            </figure>
+        </section>
+
+        <section class="media-section">
+            <h2>Audio</h2>
+        <div class="audio-box">
+        <audio controls preload="none">
+          <source src="audio/club-audio.mp3" type="audio/mpeg">
+          <p>
+            Your browser does not support the audio element.
+            <a href="audio/club-audio.mp3">Download the audio (MP3)</a> instead.
+          </p>
+        </audio>
+      </div>
+      <p>
+        This audio clip is a short demo recording of a song our members played.
+        It is royalty-free and used here only for demonstration.
+      </p>
+    </section>
+    
+    <section class="media-section">
+        <h2>Behind the Scenes</h2>
+        <figure>
+            <img src="images/behind-the-scenes.jpg" alt="Behind the scenes photo of our club members preparing for a performance" width="640" height="360">
+            <figcaption>Behind the scenes photo of our club members preparing for a performance.</figcaption>
+        </figure>
+    </section>
+     </main>

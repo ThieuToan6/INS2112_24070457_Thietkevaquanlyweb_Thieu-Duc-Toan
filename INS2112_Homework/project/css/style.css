@@ -322,7 +322,53 @@ tbody tr:hover {
     overflow-x: auto;
     margin-bottom: 24px;
 }
- 
+ /* ===== Media page (Session 10) ===== */
+.media-section {
+  max-width: 800px;
+  margin: 0 auto 48px;
+  padding: 0 16px;
+}
+
+.media-section h2 {
+  margin-bottom: 16px;
+  padding-bottom: 6px;
+}
+
+.media-section figure {
+  margin: 0  16px;
+  text-align: center;
+}
+
+.media-section video {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.media-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.media-section figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.audio-box {
+  margin: 16px 0;
+  padding: 16px;
+  background: #245e8d;
+  border-radius: 8px;
+}
+
+.audio-box audio {
+  display: block;
+  width: 100%;
+}
 /* Footer styles */
 footer{
      background: linear-gradient(135deg,
